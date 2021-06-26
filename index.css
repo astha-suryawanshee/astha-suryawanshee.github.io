@@ -1,0 +1,103 @@
+body {
+	background-color: #293846;
+
+}
+a {
+    text-decoration: none !important;
+}
+a.contact:hover {
+  color: #A3BE8C;
+}
+
+a.tools:hover
+{
+    color:lightblue;
+}
+a.Database:hover
+{
+    color:#b7e4d3;
+}
+a.lang:hover
+{
+    color:#A3BE8C;
+}
+a.Proj:hover
+{
+    color:#daecbb;
+}
+a.PetProj:hover
+{
+    color:#baaaa5;
+}
+.contact, .PetProj, .Database, .tools, .lang, .Proj {
+  color: white;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+#console {
+    font-family: courier, monospace;
+    color: #fff;
+    width: auto;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+a {
+	color: #0bc;
+	text-decoration: none;
+}
+
+#a {
+	color: #0f0;
+}
+
+#c {
+	color: #0bc;
+}
+
+#b {
+	color: #ff0096;
+}
+
+#k {
+    	animation: change 1s;
+}
+#r{
+	color: #FC0017;
+	animation: change 1s;
+}
+#op{
+    	color: #888888
+}
+
+@keyframes change {
+    	0%  { color:  #0f0; }
+    	50% { color:  #0f0; }
+    	99% { color: black; }
+}
